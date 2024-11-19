@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Cards = ({ img, name }) => {
+const Cards = ({ img, name, elements }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/categorie/${name}`);
+    navigate(`/categorie/${name}`, { state: { elements } });
   };
 
   return (
