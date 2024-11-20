@@ -190,7 +190,7 @@ const Home = () => {
         },
         {
           price: "8.00 ",
-          name: "French Toast",
+          name: " Toast",
           image: require("../assests/images/french-toast.jpg"),
           composant: "Bread, eggs, milk, cinnamon",
         },
